@@ -16,7 +16,7 @@
 2. Levanta la aplicación con Docker:
 
    ```bash
-   docker-compose up --build
+   docker-compose up
    ```
 
 3. Una vez que los contenedores estén corriendo, accede a la aplicación a través de:
