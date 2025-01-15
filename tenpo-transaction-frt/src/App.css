@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-optical-sizing: auto;
+  background-color: black;
+  color: #ffffff;
+  font-family: Graphie, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../assets/fonts/GraphieRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../assets/fonts/GraphieBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header-h1 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.header-h2 {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.header-h3 {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.tenpo-green {
+  color: #03ff94;
+}
+
+.center {
+  text-align: center;
+}

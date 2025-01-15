@@ -1,0 +1,39 @@
+.custom-table-frame {
+  overflow-x: scroll;
+}
+
+.custom-table-frame table {
+  width: 80%;
+  margin-block: 1%;
+  margin-inline: auto;
+}
+
+.page-btn-block {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.page-btn {
+  margin: 0 5px;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.page-btn.active {
+  background-color: #03ff94;
+  color: black;
+}
+
+.page-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.page-btn:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}

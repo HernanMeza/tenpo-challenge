@@ -1,0 +1,17 @@
+.full-form-frame {
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 3%px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-block: 3%;
+  }
+}
